@@ -1,0 +1,30 @@
+section{
+    .container-small{
+        .videos{
+            padding: 2rem 0;
+            display: flex;
+        }
+    }
+}
+
+@media(max-width: 1040px){
+    section{
+        .container-small{
+            .videos{
+                gap: 2rem;
+            }
+        }
+    }
+
+}
+@media(max-width: 790px){
+    section{
+        .container-small{
+            .videos{
+                gap: 2rem;
+                flex-wrap: wrap;
+            }
+        }
+    }
+
+}

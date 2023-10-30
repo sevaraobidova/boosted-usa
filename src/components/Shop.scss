@@ -1,0 +1,81 @@
+section{
+    .padding-section{
+        padding: 4rem 0;
+    }
+    .container-small{
+        .shop--text{
+            text-align: center;
+            width: 55%;
+            margin: 0 auto;
+            padding-bottom: 3rem;
+        }
+        .shop--img{
+            display: flex;
+            padding: 3rem 0;
+            .card{
+                position: relative;
+                .card-text{
+                    position: absolute;
+                    top: 50%;
+                    left: 30%;
+                    color: white;
+                    text-align: center;
+                    h2{
+                        font-size: 2.5rem;
+                        font-weight: 300;
+                    }
+                    p{
+                        font-size: 1.8rem;
+                        padding: 2rem 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 1040px){
+    html{
+        font-size: 8px;
+        section{
+            .container-small{
+                .shop--text{
+                    width: 70%;
+                    p{
+                        font-size: 1.6rem;
+                    }
+                }
+                .shop--img{
+                    gap: 10px;
+                }
+            }
+        }
+    }
+
+}
+
+@media(max-width: 750px){
+    html{
+        font-size: 7px;
+        section{
+            .container-small{
+                .shop--text{
+                    width: 90%;
+                    p{
+                        font-size: 1.6rem;
+                    }
+                }
+                .shop--img{
+                    gap: 10px;
+                    flex-wrap: wrap;
+                    .card{
+                        .card-text{
+                            left: 20%;
+                            top: 40%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

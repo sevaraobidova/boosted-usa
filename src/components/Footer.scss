@@ -1,0 +1,49 @@
+footer{
+    background-color: rgba(247, 247, 247, 1);
+    padding: 2rem 0;
+    .footer-rows{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding: 4rem 7rem;
+        .footer-links, .footer-desc{
+            ul li{
+               font-size: 1.3rem; 
+               line-height: 2rem;
+            }
+        }
+        
+    }
+}
+.head{
+        font-size: 2rem;
+        padding-bottom: 1rem;
+    
+}
+.pay{
+    padding: 3rem 0;
+    .bottom{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        p{
+            font-size: 1.5rem;
+            span{
+                color: rgba(255, 74, 50, 1);
+            }
+        }
+    }
+}
+
+@media(max-width: 750px){
+    html{
+        font-size: 8px;
+        footer{
+            .footer-rows{
+                grid-template-columns: 1fr;
+                gap: 2rem;
+                
+            }
+        }
+    }
+}

@@ -1,0 +1,45 @@
+section{
+    .container{
+        .shop--img{
+            display: flex;
+            padding: 3rem 0;
+            gap: 0;
+            .card{
+                position: relative;
+                img{
+                    transform: scale(1.055);
+                }
+                .card-text{
+                    position: absolute;
+                    top: 50%;
+                    left: 30%;
+                    color: white;
+                    text-align: center;
+                    h2{
+                        font-size: 2.5rem;
+                        font-weight: 300;
+                    }
+                    p{
+                        font-size: 1.8rem;
+                        padding: 2rem 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 1040px){
+    html{
+        font-size: 8px;
+        section{
+            .container{
+                .shop--img{
+                    flex-wrap: wrap;
+                    gap: 4rem;
+                }
+            }
+        }
+    }
+
+}

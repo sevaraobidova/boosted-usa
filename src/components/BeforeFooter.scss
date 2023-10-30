@@ -1,0 +1,43 @@
+section{
+    .black-bg{
+        background-color: black;
+        .container{
+            .cardss{
+                display: flex;
+                color: white;
+                gap: 2rem;
+                padding: 5rem 3rem;
+                .karta{
+                    text-align: center;
+                    padding: 3rem;
+                    h1{
+                        font-size: 4.8rem;
+                    }
+                    h2{
+                        font-size: 3.1rem;
+                        padding: 1.4rem 0;
+                    }
+                    p{
+                        font-size: 1.5rem;
+                        line-height: 2.25rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 750px){
+    html{
+        font-size: 8px;
+        section{
+            .black-bg{
+                .container{
+                .cardss{
+                    flex-wrap: wrap;
+                }
+                }
+            }
+        }
+    }
+}

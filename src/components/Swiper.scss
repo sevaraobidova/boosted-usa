@@ -1,0 +1,47 @@
+// .swiper-slide img {
+//     display: block;
+//     width: 100%;
+//     height: 100%;
+//     object-fit: cover;
+//   }
+
+
+  
+  .swiper {
+    width: 100%;
+    height: 300px;
+    margin: 5rem 0;  
+  }
+  .ours{
+    margin: 3rem 0;
+  }
+  .cardlar{
+    text-align: center;
+    h4{
+      color: rgba(255, 74, 50, 1);
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+    }
+    p{
+      font-size: 1.6rem;
+      span{
+        color: rgba(255, 74, 50, 1);
+      }
+    }
+  }
+  .append-buttons {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .append-buttons button {
+    display: inline-block;
+    cursor: pointer;
+    border: 1px solid #007aff;
+    color: #007aff;
+    text-decoration: none;
+    padding: 4px 10px;
+    border-radius: 4px;
+    margin: 0 10px;
+    font-size: 13px;
+  }

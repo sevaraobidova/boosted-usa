@@ -1,0 +1,29 @@
+section{
+    .container-small{
+        .parts{
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
+            padding: 5rem 0;
+            &--images{
+                display: flex;
+            }
+            &--text{
+                padding: 0 2rem;
+                text-align: center;
+            }
+        }
+    }
+}
+@media(max-width: 1025px){
+    html{
+        font-size: 9px;
+        section{
+            .container-small{
+                .parts{
+                    flex-wrap: wrap;
+                }
+            }
+        }
+    }
+}
